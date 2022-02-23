@@ -1,0 +1,105 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+ /* "indigo", */
+ /* "pink", */
+ /* "orange", */
+ /* "purple", */
+ /* "yellow",  */
+ /* "blue", */
+ /* "green" */
+ /* "red" */
+
+
+.progress.indigo > .progress-bar  {
+  background-color: indigo !important;
+}
+
+.progress.pink > .progress-bar  {
+  background-color: pink !important;
+}
+
+.progress.orange > .progress-bar  {
+  background-color: orange !important;
+}
+
+.progress.purple > .progress-bar  {
+  background-color: purple !important;
+}
+
+.progress.yellow > .progress-bar  {
+  background-color: yellow !important;
+}
+
+.progress.blue > .progress-bar  {
+  background-color: blue !important;
+}
+
+.progress.green > .progress-bar  {
+  background-color: green !important;
+}
+
+.progress.red > .progress-bar  {
+  background-color: red !important;
+}
+
+.progress.black > .progress-bar  {
+  background-color: black !important;
+}
+
+.progress.brown > .progress-bar  {
+  background-color: brown !important;
+}
+
+.progress.white > .progress-bar  {
+  background-color: darkgrey !important;
+}
+
+.progress.grey > .progress-bar  {
+  background-color: grey !important;
+}
+
+.progress.gray > .progress-bar  {
+  background-color: gray !important;
+}
+
+.progress.teal > .progress-bar  {
+  background-color: teal !important;
+}
